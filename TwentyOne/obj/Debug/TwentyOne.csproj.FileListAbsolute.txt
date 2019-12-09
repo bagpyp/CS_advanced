@@ -1,0 +1,6 @@
+C:\Users\rober\CS\advanced\TwentyOne\bin\Debug\TwentyOne.exe.config
+C:\Users\rober\CS\advanced\TwentyOne\bin\Debug\TwentyOne.exe
+C:\Users\rober\CS\advanced\TwentyOne\bin\Debug\TwentyOne.pdb
+C:\Users\rober\CS\advanced\TwentyOne\obj\Debug\TwentyOne.csprojAssemblyReference.cache
+C:\Users\rober\CS\advanced\TwentyOne\obj\Debug\TwentyOne.exe
+C:\Users\rober\CS\advanced\TwentyOne\obj\Debug\TwentyOne.pdb
