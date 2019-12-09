@@ -1,0 +1,5 @@
+C:\Users\rober\CS\advanced\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
+C:\Users\rober\CS\advanced\ConsoleApp4\bin\Debug\ConsoleApp4.exe
+C:\Users\rober\CS\advanced\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
+C:\Users\rober\CS\advanced\ConsoleApp4\obj\Debug\ConsoleApp4.exe
+C:\Users\rober\CS\advanced\ConsoleApp4\obj\Debug\ConsoleApp4.pdb
