@@ -1,0 +1,5 @@
+C:\Users\rober\CS\advanced\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+C:\Users\rober\CS\advanced\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+C:\Users\rober\CS\advanced\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+C:\Users\rober\CS\advanced\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+C:\Users\rober\CS\advanced\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
