@@ -14,13 +14,13 @@ namespace ConsoleApp6
             this.Id = -1;
         }
 
-        public static bool operator== (Employee employee1, Employee emplyee2)
+        public static bool operator== (Employee employee1, Employee employee2)
         {
-            return employee1.Id == emplyee2.Id;
+            return employee1.Id == employee2.Id;
         }
-        public static bool operator!= (Employee employee1, Employee emplyee2)
+        public static bool operator!= (Employee employee1, Employee employee2)
         {
-            return employee1.Id != emplyee2.Id;
+            return employee1.Id != employee2.Id;
         }
     }
 }

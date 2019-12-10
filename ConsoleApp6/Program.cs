@@ -25,6 +25,33 @@ namespace ConsoleApp6
             bool areSameEmployee = (employee1 == employee2);
             Console.WriteLine("It is " + areSameEmployee + " that our two employees are the same person.");
 
+            //assignment 131
+            GenericEmployee<string> empOne = new GenericEmployee<string>();
+            GenericEmployee<int> empTwo = new GenericEmployee<int>();
+            List<string> thingsOne = new List<string>() { "11", "12", "13" };
+            List<int> thingsTwo = new List<int>() { 21, 22, 23 };
+            empOne.Things = thingsOne;
+            empTwo.Things = thingsTwo;
+            //can't loop through both things but this is my idea of maybe how to do it
+            //List<object> employees = new List<object>() { empOne, empTwo };
+            //foreach (object employee in employees)
+            //{
+            //    foreach (object thing in employee.Things)
+            //    {
+            //        Console.WriteLine(thing);
+            //    }
+            //}
+            //instead just made two for loops...
+            foreach (string thing in empOne.Things)
+            {
+                Console.WriteLine(thing);
+            }
+            foreach (int thing in empTwo.Things)
+            {
+                Console.WriteLine(thing);
+            }
+
+
             Console.Read();
         }
     }
