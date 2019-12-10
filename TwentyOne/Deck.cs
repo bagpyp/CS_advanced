@@ -13,44 +13,56 @@ namespace TwentyOne
             //create a list of cards (pre-instantiated below)
             //
             Cards = new List<Card>();
-
-            //two sets to cross
-            List<string> suits = new List<string>()
+            for (int i = 0; i < 13; i++)
             {
-                "Spades", "Hearts", "Clubs", "Diamonds"
-            };
-            List<string> faces = new List<string>()
-            {
-                "2",
-                "3",
-                "4",
-                "5",
-                "6",
-                "7",
-                "8",
-                "9",
-                "10",
-                "J",
-                "Q",
-                "K",
-                "A"
-            };
-            
-            //iterate to build deck
-            foreach (string suit in suits)
-            {
-                foreach (string face in faces)
+                for (int j = 0; j < 4; j++)
                 {
-                    Card card = new Card()
-                    {
-                        Suit = suit,
-                        Face = face,
-                    };
+                    Card card = new Card();
+                    card.Face = (Face)i;
+                    card.Suit = (Suit)j;
+
                     Cards.Add(card);
                 }
             }
 
-            //
+
+            ////two sets to cross
+            //List<string> suits = new List<string>()
+            //{
+            //    "Spades", "Hearts", "Clubs", "Diamonds"
+            //};
+            //List<string> faces = new List<string>()
+            //{
+            //    "2",
+            //    "3",
+            //    "4",
+            //    "5",
+            //    "6",
+            //    "7",
+            //    "8",
+            //    "9",
+            //    "10",
+            //    "J",
+            //    "Q",
+            //    "K",
+            //    "A"
+            //};
+            
+            ////iterate to build deck
+            //foreach (string suit in suits)
+            //{
+            //    foreach (string face in faces)
+            //    {
+            //        Card card = new Card()
+            //        {
+            //            Suit = suit,
+            //            Face = face,
+            //        };
+            //        Cards.Add(card);
+            //    }
+            //}
+
+            
 
         }
 

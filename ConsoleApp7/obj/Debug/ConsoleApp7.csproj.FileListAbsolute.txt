@@ -1,0 +1,6 @@
+C:\Users\rober\CS\advanced\ConsoleApp7\bin\Debug\ConsoleApp7.exe.config
+C:\Users\rober\CS\advanced\ConsoleApp7\bin\Debug\ConsoleApp7.exe
+C:\Users\rober\CS\advanced\ConsoleApp7\bin\Debug\ConsoleApp7.pdb
+C:\Users\rober\CS\advanced\ConsoleApp7\obj\Debug\ConsoleApp7.exe
+C:\Users\rober\CS\advanced\ConsoleApp7\obj\Debug\ConsoleApp7.pdb
+C:\Users\rober\CS\advanced\ConsoleApp7\obj\Debug\ConsoleApp7.csprojAssemblyReference.cache
