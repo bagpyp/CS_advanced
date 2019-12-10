@@ -6,23 +6,31 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp5
 {
+
+    //1. Create a class. 
+        //In that class, create a void method that outputs an integer. 
+        //Have the method divide the data passed to it by 2.
     class Cutter
     {
-        public int Value { get; set; }
-        
-        //method with no out parameters
-        public void Cut()
+        public void Cut(int input)
         {
-            this.Value /= 2;
+            int cut = input / 2;
+            Console.WriteLine(input + " over two is " + cut);
         }
 
-        //method that spits out result twice moreover
-        public void Cut(out int Again, out int AgainAgain)
+        //4. Create a method with output parameters. 
+        //and 5. Overload a method.
+        public void Cut(int input, out int again)
         {
-            this.Value /= 2;
-            Again = this.Value / 2;
-            AgainAgain = Again / 2;
+            int cut = input / 2;
+            again = cut / 2;
+            Console.WriteLine(input + " over two is " + cut);
         }
 
+    }
+    //6. Declare a class to be static.    
+    static class Info
+    {
+        public static string info = "This is a cutting program";
     }
 }
