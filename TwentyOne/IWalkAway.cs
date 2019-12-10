@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace TwentyOne
 {
-    class Class2
+    interface IWalkAway
     {
+        //.NET Framework supports multiple inheritances of interfaces
+        void WalkAway(Player player);
     }
 }

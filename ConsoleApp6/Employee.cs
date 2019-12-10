@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp6
 {
-    class Employee : Person
+    class Employee : Person, IQuittable
     {
         public int Id { get; set; }
+        public void Quit()
+        {
+            this.Id = -1;
+        }
     }
 }

@@ -7,16 +7,10 @@ namespace TwentyOne
     {
         static void Main()
         {
-            ////Object instantiation
-            ////Card card = new Card() { Face = "King", Suit = "Spades" };
-
-            //TwentyOneGame game = new TwentyOneGame();
-            //game.Players = new List<string>() { "Robbie", "Heather", "Louis" };
-            //game.ListPlayers();
-            
-            //game.Play();
-
-
+            TwentyOneGame game = new TwentyOneGame();
+            game.Players = new List<string>() { "Robbie", "Heather", "Louis" };
+            game.ListPlayers();
+            Console.ReadLine();
 
             //instantiate and assign new 52-card deck
             Deck deck = new Deck();
@@ -29,6 +23,7 @@ namespace TwentyOne
                 Console.WriteLine(card.Face + " of " + card.Suit);
             }
             
+
             Console.ReadLine();
         }
     }

@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne
+namespace ConsoleApp6
 {
-    class Class1
+    interface IQuittable
     {
+        void Quit();
     }
 }
