@@ -8,9 +8,10 @@ namespace TwentyOne
 {
     public class Dealer
     {
-        public int Balance { get; set; }
-        public Deck Deck { get; set; }
         public string Name { get; set; }
+        public Deck Deck { get; set; }
+        public int Balance { get; set; }
+
 
         public void Deal(List<Card> Hand)
         {

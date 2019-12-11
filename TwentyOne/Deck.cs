@@ -24,46 +24,6 @@ namespace TwentyOne
                     Cards.Add(card);
                 }
             }
-
-
-            ////two sets to cross
-            //List<string> suits = new List<string>()
-            //{
-            //    "Spades", "Hearts", "Clubs", "Diamonds"
-            //};
-            //List<string> faces = new List<string>()
-            //{
-            //    "2",
-            //    "3",
-            //    "4",
-            //    "5",
-            //    "6",
-            //    "7",
-            //    "8",
-            //    "9",
-            //    "10",
-            //    "J",
-            //    "Q",
-            //    "K",
-            //    "A"
-            //};
-            
-            ////iterate to build deck
-            //foreach (string suit in suits)
-            //{
-            //    foreach (string face in faces)
-            //    {
-            //        Card card = new Card()
-            //        {
-            //            Suit = suit,
-            //            Face = face,
-            //        };
-            //        Cards.Add(card);
-            //    }
-            //}
-
-            
-
         }
 
         //instantiate the list of cards, property of Deck, outside of constructor
