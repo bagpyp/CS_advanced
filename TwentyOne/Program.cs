@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.IO;
 
 namespace TwentyOne
 {
@@ -8,11 +7,6 @@ namespace TwentyOne
     {
         static void Main()
         {
-            //Deck deck = new Deck();
-            //foreach (Card card in deck.Cards)
-            //{
-            //    Console.WriteLine(card.Face + " of " + card.Suit);
-            //}
             Console.WriteLine("Welcome to the Grand Hotel and Casino.\n" +
                 "Let's start by you telling me your name.");
             string playerName = Console.ReadLine();
