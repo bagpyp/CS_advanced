@@ -6,17 +6,17 @@ namespace TwentyOne
     class Program
     {
         static void Main()
-        {            
-            //instantiate and assign new 52-card deck
-            Deck deck = new Deck();
-            //Shuffle deck
-            deck.Shuffle(1);
+        {
 
-            //view deck and its count
-            foreach (Card card in deck.Cards)
-            {
-                Console.WriteLine(card.Face + " of " + card.Suit);
-            }
+            bool t = true;
+
+            //Deck deck = new Deck();
+            //deck.Shuffle(1);
+
+            //foreach (Card card in deck.Cards)
+            //{
+            //    Console.WriteLine(card.Face + " of " + card.Suit);
+            //}
             Console.ReadLine();
         }
     }
