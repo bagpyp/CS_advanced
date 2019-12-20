@@ -1,0 +1,4 @@
+C:\Users\rober\CS\advanced\Casino\bin\Debug\Casino.dll
+C:\Users\rober\CS\advanced\Casino\bin\Debug\Casino.pdb
+C:\Users\rober\CS\advanced\Casino\obj\Debug\Casino.dll
+C:\Users\rober\CS\advanced\Casino\obj\Debug\Casino.pdb
